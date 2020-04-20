@@ -1,16 +1,20 @@
 {
-  "listItems": [
-    {
-      "url": "page-blank",
-      "name": "Blank Page",
-      "icon": "pages",
-      "category": "Blank Page"
-    },
-    {
-      "url": "page-collapse",
-      "name": "Page Collapse",
-      "icon": "pages",
-      "category": "Collapse Page"
-    }
-  ]
-}
+    "menu": [
+      {
+        "url": "javascript:void(0)",
+        "name": "Pages",
+        "i18n": "Pages",
+        "class": "collapsible-header waves-effect waves-cyan",
+        "slug": "pages",
+        "icon": "pages",
+        "submenu": [
+          {
+            "url": "/",
+            "name": "Dashboard",
+            "i18n": "Dashboard",
+            "slug": "dashboard"
+          }
+        ]
+      }
+    ]
+  }
