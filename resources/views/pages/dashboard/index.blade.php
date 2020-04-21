@@ -98,7 +98,7 @@
             <div class="col s12 m6 l3">
 				<div class="card animate fadeRight">
 					<div class="card-content green lighten-1 white-text">
-						<p class="card-stats-title"><i class="material-icons">content_copy</i> Recoveries</p>
+						<p class="card-stats-title"><i class="material-icons">person_outline</i> Recoveries</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->recovered }}</h4>
 						<p class="card-stats-compare">
 
@@ -113,7 +113,7 @@
             <div class="col s12 m6 l3">
 				<div class="card animate fadeRight">
 					<div class="card-content orange lighten-1 white-text">
-						<p class="card-stats-title"><i class="material-icons">trending_up</i> Active Cases</p>
+						<p class="card-stats-title"><i class="material-icons">person_outline</i> Active Cases</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->active }}</h4>
 						<p class="card-stats-compare">
 
@@ -128,7 +128,7 @@
 			<div class="col s12 m6 l3">
 				<div class="card animate fadeLeft">
 					<div class="card-content blue-grey darken-1 white-text">
-						<p class="card-stats-title"><i class="material-icons">attach_money</i> Total Deaths</p>
+						<p class="card-stats-title"><i class="material-icons">person_outline</i> Total Deaths</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->deaths }}</h4>
 						<p class="card-stats-compare">
 
