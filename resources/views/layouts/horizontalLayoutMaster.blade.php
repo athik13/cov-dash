@@ -42,4 +42,14 @@
 
   {{-- vendors and page scripts file   --}}
   @include('panels.scripts')
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92445511-7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-92445511-7');
+    </script>
+
 </body>
