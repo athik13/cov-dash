@@ -16,7 +16,7 @@ class Helper
             'navbarLarge' => true,
             'navbarBgColor' => '',
             'isNavbarDark' => null,
-            'isNavbarFixed' => true,
+            'isNavbarFixed' => false,
             'activeMenuColor' => '',
             'isMenuDark' => null,
             'isMenuCollapsed' => false,

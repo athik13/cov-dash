@@ -1,11 +1,12 @@
 {
-  "menu": [
-    {
-      "url": "page-blank",
-      "name": "Blank Page",
-      "slug": "page-blank",
-      "icon": "pages",
-      "i18n": "Blank Page"
-    }
-  ]
-}
+    "menu": [
+      {
+        "url": "javascript:void(0)",
+        "name": "Dashboard",
+        "i18n": "english",
+        "class": "collapsible-header waves-effect waves-cyan",
+        "slug": "Dashboard",
+        "icon": "pages"
+      }
+    ]
+  }
