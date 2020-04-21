@@ -2,7 +2,7 @@
 @extends('layouts.contentLayoutMaster')
 
 {{-- page title --}}
-@section('title','Dashboard - English')
+@section('title','Dashboard - Maldives')
 
 {{-- page styles --}}
 @section('page-style')
