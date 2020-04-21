@@ -17,12 +17,16 @@ $configData = Helper::applClasses();
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Covid-19 - Maldives Info Dashboard">
+  <meta name="keywords" content="covid-19,maldives,coronavirus,corona virus,updates">
+  <meta property="og:title" content="Covid-19 Dashboard">
+  <meta property="og:image" content="/images/logo/01.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title>@yield('title') | Covid-19 Dashboard</title>
-  <link rel="apple-touch-icon" href="../../images/favicon/apple-touch-icon-152x152.png">
-  <link rel="shortcut icon" type="image/x-icon" href="../../images/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="/images/favicon/apple-touch-icon-152x152.png">
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon/favicon-32x32.png">
 
   {{-- Include core + vendor Styles --}}
   @include('panels.styles')
