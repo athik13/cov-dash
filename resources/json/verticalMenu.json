@@ -2,17 +2,17 @@
   "menu": [
     {
       "url": "javascript:void(0)",
-      "name": "Pages",
-      "i18n": "Pages",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
       "class": "collapsible-header waves-effect waves-cyan",
-      "slug": "pages",
+      "slug": "Dashboard",
       "icon": "pages",
       "submenu": [
         {
           "url": "/",
-          "name": "Dashboard",
-          "i18n": "Dashboard",
-          "slug": "dashboard"
+          "name": "English",
+          "i18n": "English",
+          "slug": "english"
         }
       ]
     }
