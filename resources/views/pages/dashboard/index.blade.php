@@ -160,113 +160,9 @@
                         </div>
                     </div>
                     <div class="card-content">
-                        <a class="btn-floating btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                            <i class="material-icons activator">filter_list</i>
-                        </a>
                         <div class="trending-line-chart-wrapper table-responsive" style="height: 60vh; padding-bottom: 50px;">
                             <canvas id="cases-chart" style="height: 100%"></canvas>
                         </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Revenue by Month <i class="material-icons right">close</i>
-                        </span>
-                        <table class="responsive-table">
-                            <thead>
-                                <tr>
-                                    <th data-field="id">ID</th>
-                                    <th data-field="month">Month</th>
-                                    <th data-field="item-sold">Item Sold</th>
-                                    <th data-field="item-price">Item Price</th>
-                                    <th data-field="total-profit">Total Profit</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>January</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>February</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>March</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>April</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>May</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>June</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>July</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>August</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>Septmber</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>Octomber</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>11</td>
-                                    <td>November</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                                <tr>
-                                    <td>12</td>
-                                    <td>December</td>
-                                    <td>122</td>
-                                    <td>100</td>
-                                    <td>$122,00.00</td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
@@ -278,68 +174,9 @@
                         </div>
                     </div>
                     <div class="card-content">
-                        <a class="btn-floating btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                            <i class="material-icons activator">filter_list</i>
-                        </a>
                         <div class="line-chart-wrapper">
                             <canvas id="people-tested-chart" height="200%"></canvas>
                         </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Revenue by country <i
-                            class="material-icons right">close</i>
-                        </span>
-                        <table class="responsive-table">
-                            <thead>
-                                <tr>
-                                    <th data-field="country-name">Country Name</th>
-                                    <th data-field="item-sold">Item Sold</th>
-                                    <th data-field="total-profit">Total Profit</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>USA</td>
-                                    <td>65</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>UK</td>
-                                    <td>76</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>Canada</td>
-                                    <td>65</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>Brazil</td>
-                                    <td>76</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>India</td>
-                                    <td>65</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>France</td>
-                                    <td>76</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>Austrelia</td>
-                                    <td>65</td>
-                                    <td>$452.55</td>
-                                </tr>
-                                <tr>
-                                    <td>Russia</td>
-                                    <td>76</td>
-                                    <td>$452.55</td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
@@ -356,28 +193,9 @@
                         </div>
                     </div>
                     <div class="card-content">
-                        <a class="btn-floating btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                            <i class="material-icons activator">filter_list</i>
-                        </a>
                         <div class="trending-line-chart-wrapper">
                             <canvas id="local-vs-foreigners-chart" height="150%"></canvas>
                         </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Revenue by Month <i class="material-icons right">close</i>
-                        </span>
-                        <table class="responsive-table">
-                            <thead>
-                                <tr>
-                                    <th data-field="id">ID</th>
-                                    <th data-field="month">Month</th>
-                                    <th data-field="item-sold">Item Sold</th>
-                                    <th data-field="item-price">Item Price</th>
-                                    <th data-field="total-profit">Total Profit</th>
-                                </tr>
-                            </thead>
-
-                        </table>
                     </div>
                 </div>
             </div>
@@ -391,28 +209,9 @@
                         </div>
                     </div>
                     <div class="card-content">
-                        <a class="btn-floating btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                            <i class="material-icons activator">filter_list</i>
-                        </a>
                         <div class="trending-line-chart-wrapper">
                             <canvas id="maldives-vs-out-country-chart" height="150%"></canvas>
                         </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Revenue by Month <i class="material-icons right">close</i>
-                        </span>
-                        <table class="responsive-table">
-                            <thead>
-                                <tr>
-                                    <th data-field="id">ID</th>
-                                    <th data-field="month">Month</th>
-                                    <th data-field="item-sold">Item Sold</th>
-                                    <th data-field="item-price">Item Price</th>
-                                    <th data-field="total-profit">Total Profit</th>
-                                </tr>
-                            </thead>
-
-                        </table>
                     </div>
                 </div>
             </div>
@@ -426,28 +225,9 @@
                         </div>
                     </div>
                     <div class="card-content">
-                        <a class="btn-floating btn-move-up waves-effect waves-light red accent-2 z-depth-4 right">
-                            <i class="material-icons activator">filter_list</i>
-                        </a>
                         <div class="trending-line-chart-wrapper">
                             <canvas id="isolation-and-quarantine-chart" height="150%"></canvas>
                         </div>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Revenue by Month <i class="material-icons right">close</i>
-                        </span>
-                        <table class="responsive-table">
-                            <thead>
-                                <tr>
-                                    <th data-field="id">ID</th>
-                                    <th data-field="month">Month</th>
-                                    <th data-field="item-sold">Item Sold</th>
-                                    <th data-field="item-price">Item Price</th>
-                                    <th data-field="total-profit">Total Profit</th>
-                                </tr>
-                            </thead>
-
-                        </table>
                     </div>
                 </div>
             </div>
