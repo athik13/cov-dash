@@ -284,7 +284,7 @@
 
 {{-- page scripts --}}
 @section('page-script')
-<script src="/js/seamless.child.min.js"></script>
+<script src="/assets/js/seamless.child.min.js"></script>
 <script type="text/javascript">
 
     // Connect to the parent page.
