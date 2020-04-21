@@ -20,7 +20,7 @@ $configData = Helper::applClasses();
   <meta name="description" content="Covid-19 - Maldives Info Dashboard">
   <meta name="keywords" content="covid-19,maldives,coronavirus,corona virus,updates">
   <meta property="og:title" content="Covid-19 Dashboard">
-  <meta property="og:image" content="https://covidmv.live/share_banner.jpg" />
+  <meta property="og:image" content="https://covidmv.live/share_banner_new.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
