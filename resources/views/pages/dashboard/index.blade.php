@@ -73,7 +73,7 @@
 
 <div class="section">
     <div id="title">
-        <h3>Covid-19 Outbreak in Maldives</h3>
+        <h3>Covid-19 Outbreak in Maldives <a class="btn btn-info" href="https://covidmv.live/">Back to Home</a></h3>
         <h6><span class="pulse" style="">Live Updates</span> - Last updated: {{ $currentStat->updated_at->diffForHumans() }}</h6>
     </div>
 
