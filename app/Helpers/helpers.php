@@ -23,7 +23,7 @@ class Helper
             'activeMenuType' => '',
             'isFooterDark' => null,
             'isFooterFixed' => false,
-            'templateTitle' => '',
+            'templateTitle' => 'Covid - 19',
             'defaultLanguage'=>'en',
             'largeScreenLogo' => 'images/logo/materialize-logo-color.png',
             'smallScreenLogo' => 'images/logo/materialize-logo.png',

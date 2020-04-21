@@ -6,12 +6,12 @@
         <li>
           <h1 class="logo-wrapper">
             <a class="brand-logo darken-1" href="{{asset('/')}}">
-              <img src="{{asset($configData['smallScreenLogo'])}}" alt="materialize logo">
+              <img src="{{asset($configData['smallScreenLogo'])}}" alt="CovidMV logo">
               <span class="logo-text hide-on-med-and-down">
                 @if(!empty ($configData['templateTitle']))
                 {{$configData['templateTitle']}}
                 @else
-                Materialize
+                Covid - 19
                 @endif
               </span>
             </a>
