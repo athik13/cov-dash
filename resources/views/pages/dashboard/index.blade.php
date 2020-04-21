@@ -86,8 +86,7 @@
 						<p class="card-stats-title"><i class="material-icons">person_outline</i> Total Confirmed Cases</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->totalConfirmedCases }}</h4>
 						<p class="card-stats-compare">
-							<i class="material-icons">keyboard_arrow_up</i> 15%
-							<span class="red-text text-lighten-5">from yesterday</span>
+
 						</p>
 					</div>
 					<div class="card-action red darken-1">
@@ -102,8 +101,7 @@
 						<p class="card-stats-title"><i class="material-icons">content_copy</i> Recoveries</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->recovered }}</h4>
 						<p class="card-stats-compare">
-							<i class="material-icons">keyboard_arrow_down</i> 3%
-							<span class="green-text text-lighten-5">from last month</span>
+
 						</p>
 					</div>
 					<div class="card-action green">
@@ -118,8 +116,7 @@
 						<p class="card-stats-title"><i class="material-icons">trending_up</i> Active Cases</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->active }}</h4>
 						<p class="card-stats-compare">
-							<i class="material-icons">keyboard_arrow_up</i> 80%
-							<span class="orange-text text-lighten-5">from yesterday</span>
+
 						</p>
 					</div>
 					<div class="card-action orange">
@@ -134,8 +131,7 @@
 						<p class="card-stats-title"><i class="material-icons">attach_money</i> Total Deaths</p>
 						<h4 class="card-stats-number white-text">{{ $currentStat->deaths }}</h4>
 						<p class="card-stats-compare">
-                            <i class="material-icons">keyboard_arrow_up</i> 70%
-                            <span class="red-text text-lighten-5">last month</span>
+
 						</p>
 					</div>
 					<div class="card-action blue-grey darken-4">
