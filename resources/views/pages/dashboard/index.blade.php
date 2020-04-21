@@ -73,8 +73,8 @@
 
 <div class="section">
     <div id="title">
-        <h2>Covid-19 Outbreak in Maldives</h2>
-        <h5><span class="pulse" style="">Live Updates</span> - Last updated: 50 seconds ago</h5>
+        <h3>Covid-19 Outbreak in Maldives</h3>
+        <h6><span class="pulse" style="">Live Updates</span> - Last updated: {{ $currentStat->updated_at->diffForHumans() }}</h6>
     </div>
 
 	<!-- card stats start -->
