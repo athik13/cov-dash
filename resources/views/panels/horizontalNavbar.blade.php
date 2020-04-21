@@ -19,41 +19,6 @@
         </li>
       </ul>
   </nav>
-  <!-- BEGIN: Horizontal nav start-->
-  <nav class="white hide-on-med-and-down" id="horizontal-nav">
-    <div class="nav-wrapper">
-      <ul class="left hide-on-med-and-down" id="ul-horizontal-nav" data-menu="menu-navigation">
-        {{-- Foreach menu item starts --}}
-        @if(!empty($menuData[1]) && isset($menuData[1]))
-          @foreach ($menuData[1]->menu as $menu)
-            @php
-            $custom_classes="";
-            if(isset($menu->class))
-            {
-            $custom_classes=$menu->class;
-            }
-            @endphp
-          <li {{(request()->is($menu->url)) ? 'class=active':''}}>
-            <a class="@if(isset($menu->submenu)){{'dropdown-menu'}} @endif" href="{{$menu->url}}"
-              data-target="@if(isset($menu->activate)){{$menu->activate}} @endif">
-              <i class="material-icons">{{$menu->icon}}</i>
-              <span>
-                <span class="dropdown-title">{{ __('locale.'.$menu->name)}}</span>
-                @isset($menu->submenu)
-                <i class="material-icons right">keyboard_arrow_down</i>
-                @endisset
-              </span>
-            </a>
-            @if(isset($menu->submenu))
-              @include('panels.horizontalSubmenu',['menu' => $menu->submenu],['activate'=>$menu->activate])
-            @endif
-          </li>
-          @endforeach
-        @endif
-      </ul>
-    </div>
-    <!-- END: Horizontal nav start-->
-  </nav>
 </div>
 
 {{-- Quick search list --}}
